@@ -28,7 +28,7 @@ SECRET_KEY = '6ps8j!crjgrxt34cqbqn7x&b3y%(fny8k8nh21+qa)%ws3fh!q'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['tiobet-bb9119a36f41.herokuapp.com']
 
 
 # Application definition
@@ -99,12 +99,11 @@ WSGI_APPLICATION = 'commerce.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql_psycopg2',
-        'NAME': '',
-        'USER': '',
-        'PASSWORD': '',
-        'HOST': '',
-        'PORT': '',
-        
+        'NAME': 'daos9fv6isuhsi',
+        'USER': 'uc0n3ien0tqco1',
+        'PASSWORD': 'p791253888589a070797ed8841e26c40c0573c99218d68d43b89dbe6eaf0a41a3',
+        'HOST': 'ccba8a0vn4fb2p.cluster-czrs8kj4isg7.us-east-1.rds.amazonaws.com',
+        'PORT': '5432',
     }
 }
 
